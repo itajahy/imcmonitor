@@ -4,11 +4,11 @@ public void executar(){
 
       Atleta atleta = new Atleta();
 
-      atleta.nome = "Piedade Silva";      
-      atleta.idade = 30;
+      atleta.setNome ("Piedade Silva");      
+      atleta.setIdade (30);
 
-      System.out.println("Nome = " + atleta.nome);
-      System.out.println("idade = " + atleta.idade);
+      System.out.println("Nome = " + atleta.getNome());
+      System.out.println("idade = " + atleta.getIdade());
   }
 
 }
